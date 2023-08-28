@@ -20,6 +20,7 @@ What are recommender systems? it actually will recommend things that you might b
 3. Harder to manipulate system
 ### Implementing an rating movies recommender
 Look at the main.py file. I used MovieLens dataset.
+After preparing data, for comparing pairwise correlation each column with others, Pandas' cornwith function can be used.
    
    
 #### (Note: Make sure that the behavior that you're considering is based on people actually spending money. So, you'll get more reliable results.)
